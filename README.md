@@ -1,21 +1,35 @@
 # 🎨 Neural Style Transfer App
 
-## Transform any photo into artwork using deep learning and style transfer!
+Transform any photo into stunning artwork using deep learning and neural style transfer!  
+This app blends the content of one image with the artistic style of another image using a fast, pre-trained neural model.
 
-A fast, interactive web app that takes a content image and applies the style of another image (like a famous painting), powered by TensorFlow and Streamlit.
+---
+
+## 🚀 Features
+
+- 📷 Upload **any content image** (portraits, landscapes, etc.)
+- 🖼️ Apply the **style of any image** (paintings, textures, abstract art)
+- 🎚️ Adjustable **style strength**
+- ⚡ Real-time stylization using **TensorFlow Hub**
+- 🧠 Powered by **Magenta Arbitrary Image Stylization v1 (256)**
+- 💾 Download the final stylized output
+- 🖥️ Simple and beautiful **Streamlit UI**
 
 ---
 
-### 🚀 Features
+### 🧠 Model Used
 
-- 📷 Upload **any content image** (selfie, scenery, etc.)
-- 🖼️ Apply the **style of any image** (e.g., Starry Night, mosaic textures)
-- 🎛️ **Adjust style strength** with an intuitive slider
-- 🧠 Powered by **TensorFlow Hub's Magenta model** (faster than traditional VGG-based models)
-- 💾 **Download the stylized image**
-- ✅ **Streamlit-based UI** – fast, clean, and interactive
+- **Google Magenta – Arbitrary Image Stylization v1 (256)**
+- [TF Hub Link](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2)
+- Combines content + style using deep feature matching
+- Fast feed-forward stylization
+- Trained on **MS-COCO + WikiArt**
 
 ---
+
+
+ 
+
 
 ### 🧠 Model Used
 
